@@ -1150,7 +1150,6 @@ class VacBot_950type extends VacBot {
                 return null;
             }
         }
-        console.log(mapID);
         const crcList = payload['value'];
         if (!this.liveMapImage || (this.liveMapImage.mapID !== mapID)) {
             const crcArray = crcList.split(',');
@@ -1178,7 +1177,6 @@ class VacBot_950type extends VacBot {
                 this.liveMapImage.updateMapDataPiecesCrc(crcList);
             }
         }
-        return { mid: mapID };
     }
 
     /**

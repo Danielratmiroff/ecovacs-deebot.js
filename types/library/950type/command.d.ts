@@ -1279,6 +1279,3 @@ declare class GetMapSubSet extends VacBotCommand {
 }
 export { VacBotCommand as Generic, MapPoint_V2 as SpotPurification };
 //# sourceMappingURL=command.d.ts.map
-export class GetMajorMap extends VacBotCommand {
-    constructor();
-}

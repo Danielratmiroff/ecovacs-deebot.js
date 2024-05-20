@@ -402,21 +402,13 @@ class GetSchedule extends VacBotCommand {
     }
 }
 
-export class GetMajorMap extends VacBotCommand {
-    constructor() {
-        super('GetMajorMap');
-    }
-}
-
 module.exports.Generic = VacBotCommand;
 
 module.exports.Charge = Charge;
 module.exports.Clean = Clean;
 module.exports.CustomArea = CustomArea;
 module.exports.Edge = Edge;
-module.exports.GetMajorMap = GetMajorMap;
 module.exports.GetBatteryState = GetBatteryState;
-module.exports.GetM = GetBatteryState;
 module.exports.GetChargeState = GetChargeState;
 module.exports.GetChargerPos = GetChargerPos;
 module.exports.GetCleanLogs = GetCleanLogs;

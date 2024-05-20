@@ -232,10 +232,6 @@ class Ecovacs extends EventEmitter {
                 }
                 break;
             }
-            case 'GetMajorMap':
-                const a = this.bot.handleMajorMap(payload);
-                this.emit('GetMajorMap', a);
-                break;
             case 'MapM':
                 // Map Model
                 // - runs "GetMapSet" to request spot areas and virtual walls

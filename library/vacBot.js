@@ -593,9 +593,6 @@ class VacBot {
             case "GetBatteryState".toLowerCase():
                 this.sendCommand(new this.vacBotCommand.GetBatteryState());
                 break;
-            case "GetMajorMap".toLowerCase():
-                this.sendCommand(new this.vacBotCommand.GetMajorMap());
-                break;
             case "GetCleanState".toLowerCase():
             case "GetCleanInfo".toLowerCase():
                 this.sendCommand(new this.vacBotCommand.GetCleanState());
