@@ -818,8 +818,9 @@ class EcovacsMQTT_JSON extends EcovacsMQTT {
                 // {"onAIMap":{"mid":"1839835603","totalCount":4},"onMapSet":{"mid":"1839835603","type":"svm","hasUnRead":0}}
                 break;
             }
-            case 'MajorMap': {
-                this.vacBot.handleMajorMap(payload);
+            case 'GetMajorMap': {
+                this.emitMessage('GetMajorMap', payload);
+                this.// vacBot.handleMajorMap(payload);
                 // TODO: finish implementing MajorMap
                 break;
             }
